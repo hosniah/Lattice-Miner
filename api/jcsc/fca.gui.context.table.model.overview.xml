@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet href="xsl/overview.xsl" type="text/xsl"?>
+<jcsc>
+  <overview>
+    <packagename>fca.gui.context.table.model</packagename>
+    <packagecount>0</packagecount>
+    <name>fca.gui.context.table.model</name>
+    <classcount>7</classcount>
+    <methodscount>67</methodscount>
+    <violationscount>7</violationscount>
+    <linecount>840</linecount>
+    <ncsscount>309</ncsscount>
+    <functionpointscount>5.830188679245283</functionpointscount>
+    <unittestclasscount>0</unittestclasscount>
+    <unittestscount>0</unittestscount>
+    <severitylevel>3</severitylevel>
+    <worstclasses>
+      <worst>
+        <class>fca.gui.context.table.model.BinaryContextTableModel</class>
+        <count>1</count>
+        <author><![CDATA[]]></author>
+      </worst>
+      <worst>
+        <class>fca.gui.context.table.model.ContextTableModel</class>
+        <count>1</count>
+        <author><![CDATA[]]></author>
+      </worst>
+      <worst>
+        <class>fca.gui.context.table.model.NestedContextTableModel</class>
+        <count>1</count>
+        <author><![CDATA[]]></author>
+      </worst>
+      <worst>
+        <class>fca.gui.context.table.model.NestedRowHeaderModel</class>
+        <count>1</count>
+        <author><![CDATA[]]></author>
+      </worst>
+      <worst>
+        <class>fca.gui.context.table.model.RowHeaderModel</class>
+        <count>1</count>
+        <author><![CDATA[]]></author>
+      </worst>
+      <worst>
+        <class>fca.gui.context.table.model.SubContextTableModel</class>
+        <count>1</count>
+        <author><![CDATA[]]></author>
+      </worst>
+      <worst>
+        <class>fca.gui.context.table.model.ValuedContextTableModel</class>
+        <count>1</count>
+        <author><![CDATA[]]></author>
+      </worst>
+    </worstclasses>
+  </overview>
+</jcsc>

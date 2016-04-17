@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet href="xsl/packagelist.xsl" type="text/xsl"?>
+<jcsc>
+  <packagelist>
+    <package>fca</package>
+    <package>fca.core.context</package>
+    <package>fca.core.context.binary</package>
+    <package>fca.core.context.nested</package>
+    <package>fca.core.context.valued</package>
+    <package>fca.core.lattice</package>
+    <package>fca.core.lattice.operator</package>
+    <package>fca.core.lattice.operator.projection</package>
+    <package>fca.core.lattice.operator.search</package>
+    <package>fca.core.rule</package>
+    <package>fca.core.util</package>
+    <package>fca.exception</package>
+    <package>fca.gui</package>
+    <package>fca.gui.context</package>
+    <package>fca.gui.context.assistant</package>
+    <package>fca.gui.context.panel</package>
+    <package>fca.gui.context.table</package>
+    <package>fca.gui.context.table.model</package>
+    <package>fca.gui.lattice</package>
+    <package>fca.gui.lattice.element</package>
+    <package>fca.gui.lattice.tool</package>
+    <package>fca.gui.rule</package>
+    <package>fca.gui.util</package>
+    <package>fca.gui.util.constant</package>
+    <package>fca.io</package>
+    <package>fca.io.context</package>
+    <package>fca.io.context.reader</package>
+    <package>fca.io.context.reader.txt</package>
+    <package>fca.io.context.reader.xml</package>
+    <package>fca.io.context.writer</package>
+    <package>fca.io.context.writer.txt</package>
+    <package>fca.io.context.writer.xml</package>
+    <package>fca.io.db.reader</package>
+    <package>fca.io.lattice</package>
+    <package>fca.io.lattice.writer</package>
+    <package>fca.io.lattice.writer.xml</package>
+    <package>fca.messages</package>
+  </packagelist>
+  <categories>
+    <category>General</category>
+    <category>Field</category>
+    <category>Method</category>
+    <category>Metrics</category>
+  </categories>
+  <severities>
+    <severity>3</severity>
+    <severity>4</severity>
+  </severities>
+</jcsc>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet href="xsl/overview.xsl" type="text/xsl"?>
+<jcsc>
+  <overview>
+    <packagename>fca.core.context.binary</packagename>
+    <packagecount>0</packagecount>
+    <name>fca.core.context.binary</name>
+    <classcount>3</classcount>
+    <methodscount>38</methodscount>
+    <violationscount>5</violationscount>
+    <linecount>738</linecount>
+    <ncsscount>472</ncsscount>
+    <functionpointscount>8.90566037735849</functionpointscount>
+    <unittestclasscount>0</unittestclasscount>
+    <unittestscount>0</unittestscount>
+    <severitylevel>4</severitylevel>
+    <worstclasses>
+      <worst>
+        <class>fca.core.context.binary.Decomposition</class>
+        <count>3</count>
+        <author><![CDATA[]]></author>
+      </worst>
+      <worst>
+        <class>fca.core.context.binary.BinaryContext</class>
+        <count>2</count>
+        <author><![CDATA[]]></author>
+      </worst>
+      <worst>
+        <class>fca.core.context.binary.AggregateBinaryContext</class>
+        <count>0</count>
+        <author><![CDATA[]]></author>
+      </worst>
+    </worstclasses>
+  </overview>
+</jcsc>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet href="xsl/class.xsl" type="text/xsl"?>
+<jcsc>
+  <package>fca.gui.context.panel</package>
+  <class>RemoveObjectsPanel</class>
+  <methods>3</methods>
+  <author><![CDATA[]]></author>
+  <count>2</count>
+  <ncss>129</ncss>
+  <lines>205</lines>
+  <unittestclasses>0</unittestclasses>
+  <unittests>0</unittests>
+  <violation>
+    <rule>
+      <name>FCFPriRegExp</name>
+      <severity>3</severity>
+      <category>Field</category>
+    </rule>
+    <classname>RemoveObjectsPanel</classname>
+    <package>fca.gui.context.panel</package>
+    <line>42</line>
+    <column>54</column>
+    <message><![CDATA[field declaration 'serialVersionUID' must match the following regexp '[A-Z][A-Z0-9_]*]]></message>
+    <source>H:\eclipse\workspace\LatticeMiner\src\fca\gui\context\panel\RemoveObjectsPanel.java</source>
+  </violation>
+  <violation>
+    <rule>
+      <name>MaxNumberOfNCSSPerConstructor</name>
+      <severity>4</severity>
+      <category>Metrics</category>
+    </rule>
+    <classname>RemoveObjectsPanel</classname>
+    <package>fca.gui.context.panel</package>
+    <line>69</line>
+    <column>16</column>
+    <message><![CDATA[constructor has too many NCSS (73) - 25 are allowed]]></message>
+    <source>H:\eclipse\workspace\LatticeMiner\src\fca\gui\context\panel\RemoveObjectsPanel.java</source>
+  </violation>
+  <metric>
+    <method>>
+      <name>RemoveObjectsPanel.constructor()</name>
+      <line>69</line>
+      <column>16</column>
+      <ncss>73</ncss>
+      <ccn>3</ccn>
+    </method>
+  </metric>
+  <metric>
+    <method>>
+      <name>RemoveObjectsPanel.open()</name>
+      <line>173</line>
+      <column>26</column>
+      <ncss>2</ncss>
+      <ccn>1</ccn>
+    </method>
+  </metric>
+  <metric>
+    <method>>
+      <name>RemoveObjectsPanel.actionPerformed()</name>
+      <line>183</line>
+      <column>50</column>
+      <ncss>15</ncss>
+      <ccn>5</ccn>
+    </method>
+  </metric>
+</jcsc>

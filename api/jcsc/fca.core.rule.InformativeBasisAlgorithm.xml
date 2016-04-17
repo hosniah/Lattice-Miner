@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet href="xsl/class.xsl" type="text/xsl"?>
+<jcsc>
+  <package>fca.core.rule</package>
+  <class>InformativeBasisAlgorithm</class>
+  <methods>4</methods>
+  <author><![CDATA[]]></author>
+  <count>0</count>
+  <ncss>42</ncss>
+  <lines>107</lines>
+  <unittestclasses>0</unittestclasses>
+  <unittests>0</unittests>
+  <metric>
+    <method>>
+      <name>InformativeBasisAlgorithm.constructor()</name>
+      <line>22</line>
+      <column>16</column>
+      <ncss>4</ncss>
+      <ccn>1</ccn>
+    </method>
+  </metric>
+  <metric>
+    <method>>
+      <name>InformativeBasisAlgorithm.getReducedConsequence()</name>
+      <line>34</line>
+      <column>89</column>
+      <ncss>6</ncss>
+      <ccn>3</ccn>
+    </method>
+  </metric>
+  <metric>
+    <method>>
+      <name>InformativeBasisAlgorithm.processNode()</name>
+      <line>56</line>
+      <column>68</column>
+      <ncss>20</ncss>
+      <ccn>6</ccn>
+    </method>
+  </metric>
+  <metric>
+    <method>>
+      <name>InformativeBasisAlgorithm.run()</name>
+      <line>96</line>
+      <column>25</column>
+      <ncss>6</ncss>
+      <ccn>2</ccn>
+    </method>
+  </metric>
+</jcsc>

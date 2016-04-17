@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet href="xsl/overview.xsl" type="text/xsl"?>
+<jcsc>
+  <overview>
+    <packagename>fca.gui.lattice</packagename>
+    <packagecount>0</packagecount>
+    <name>fca.gui.lattice</name>
+    <classcount>4</classcount>
+    <methodscount>173</methodscount>
+    <violationscount>50</violationscount>
+    <linecount>6228</linecount>
+    <ncsscount>3808</ncsscount>
+    <functionpointscount>71.84905660377359</functionpointscount>
+    <unittestclasscount>0</unittestclasscount>
+    <unittestscount>0</unittestscount>
+    <severitylevel>4</severitylevel>
+    <worstclasses>
+      <worst>
+        <class>fca.gui.lattice.LatticePanel</class>
+        <count>18</count>
+        <author><![CDATA[]]></author>
+      </worst>
+      <worst>
+        <class>fca.gui.lattice.LatticeViewer</class>
+        <count>18</count>
+        <author><![CDATA[]]></author>
+      </worst>
+      <worst>
+        <class>fca.gui.lattice.LatticeStructureFrame</class>
+        <count>10</count>
+        <author><![CDATA[]]></author>
+      </worst>
+      <worst>
+        <class>fca.gui.lattice.LatticeLittleMap</class>
+        <count>4</count>
+        <author><![CDATA[]]></author>
+      </worst>
+    </worstclasses>
+  </overview>
+</jcsc>

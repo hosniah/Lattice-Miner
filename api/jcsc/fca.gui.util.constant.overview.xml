@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet href="xsl/overview.xsl" type="text/xsl"?>
+<jcsc>
+  <overview>
+    <packagename>fca.gui.util.constant</packagename>
+    <packagecount>0</packagecount>
+    <name>fca.gui.util.constant</name>
+    <classcount>6</classcount>
+    <methodscount>57</methodscount>
+    <violationscount>1</violationscount>
+    <linecount>925</linecount>
+    <ncsscount>260</ncsscount>
+    <functionpointscount>4.90566037735849</functionpointscount>
+    <unittestclasscount>0</unittestclasscount>
+    <unittestscount>0</unittestscount>
+    <severitylevel>3</severitylevel>
+    <worstclasses>
+      <worst>
+        <class>fca.gui.util.constant.LMColors</class>
+        <count>1</count>
+        <author><![CDATA[]]></author>
+      </worst>
+      <worst>
+        <class>fca.gui.util.constant.LMHistory</class>
+        <count>0</count>
+        <author><![CDATA[]]></author>
+      </worst>
+      <worst>
+        <class>fca.gui.util.constant.LMIcons</class>
+        <count>0</count>
+        <author><![CDATA[]]></author>
+      </worst>
+      <worst>
+        <class>fca.gui.util.constant.LMImages</class>
+        <count>0</count>
+        <author><![CDATA[]]></author>
+      </worst>
+      <worst>
+        <class>fca.gui.util.constant.LMOptions</class>
+        <count>0</count>
+        <author><![CDATA[]]></author>
+      </worst>
+      <worst>
+        <class>fca.gui.util.constant.LMPreferences</class>
+        <count>0</count>
+        <author><![CDATA[]]></author>
+      </worst>
+    </worstclasses>
+  </overview>
+</jcsc>

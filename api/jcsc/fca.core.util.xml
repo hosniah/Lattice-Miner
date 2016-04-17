@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet href="xsl/package.xsl" type="text/xsl"?>
+<jcsc>
+  <classlist>
+    <package>fca.core.util</package>
+    <classes>
+      <class>fca.core.util.BasicSet</class>
+      <class>fca.core.util.Couple</class>
+      <class>fca.core.util.LogicalFormula</class>
+      <class>fca.core.util.Triple</class>
+    </classes>
+  </classlist>
+</jcsc>

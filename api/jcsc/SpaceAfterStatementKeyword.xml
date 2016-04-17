@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet href="xsl/rule.xsl" type="text/xsl"?>
+<jcsc>
+  <category>General</category>
+  <rule>SpaceAfterStatementKeyword</rule>
+  <violations>
+    <violation>
+      <rule>
+        <name>SpaceAfterStatementKeyword</name>
+        <severity>3</severity>
+        <category>General</category>
+      </rule>
+      <classname>GraphicalLattice</classname>
+      <package>fca.gui.lattice.element</package>
+      <line>1432</line>
+      <column>27</column>
+      <message><![CDATA[A space after statement keyword 'if' is mandatory]]></message>
+      <source>H:\eclipse\workspace\LatticeMiner\src\fca\gui\lattice\element\GraphicalLattice.java</source>
+    </violation>
+    <violation>
+      <rule>
+        <name>SpaceAfterStatementKeyword</name>
+        <severity>3</severity>
+        <category>General</category>
+      </rule>
+      <classname>AbstractFilter</classname>
+      <package>fca.gui.util</package>
+      <line>56</line>
+      <column>11</column>
+      <message><![CDATA[A space after statement keyword 'if' is mandatory]]></message>
+      <source>H:\eclipse\workspace\LatticeMiner\src\fca\gui\util\AbstractFilter.java</source>
+    </violation>
+    <violation>
+      <rule>
+        <name>SpaceAfterStatementKeyword</name>
+        <severity>3</severity>
+        <category>General</category>
+      </rule>
+      <classname>AbstractFilter</classname>
+      <package>fca.gui.util</package>
+      <line>57</line>
+      <column>19</column>
+      <message><![CDATA[A space after statement keyword 'if' is mandatory]]></message>
+      <source>H:\eclipse\workspace\LatticeMiner\src\fca\gui\util\AbstractFilter.java</source>
+    </violation>
+  </violations>
+</jcsc>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet href="xsl/class.xsl" type="text/xsl"?>
+<jcsc>
+  <package>fca.exception</package>
+  <class>InvalidTypeException</class>
+  <methods>2</methods>
+  <author><![CDATA[]]></author>
+  <count>1</count>
+  <ncss>8</ncss>
+  <lines>33</lines>
+  <unittestclasses>0</unittestclasses>
+  <unittests>0</unittests>
+  <violation>
+    <rule>
+      <name>FCFPriRegExp</name>
+      <severity>3</severity>
+      <category>Field</category>
+    </rule>
+    <classname>InvalidTypeException</classname>
+    <package>fca.exception</package>
+    <line>15</line>
+    <column>55</column>
+    <message><![CDATA[field declaration 'serialVersionUID' must match the following regexp '[A-Z][A-Z0-9_]*]]></message>
+    <source>H:\eclipse\workspace\LatticeMiner\src\fca\exception\InvalidTypeException.java</source>
+  </violation>
+  <metric>
+    <method>>
+      <name>InvalidTypeException.constructor()</name>
+      <line>21</line>
+      <column>16</column>
+      <ncss>2</ncss>
+      <ccn>1</ccn>
+    </method>
+  </metric>
+  <metric>
+    <method>>
+      <name>InvalidTypeException.getMessageGeneral()</name>
+      <line>30</line>
+      <column>41</column>
+      <ncss>2</ncss>
+      <ccn>1</ccn>
+    </method>
+  </metric>
+</jcsc>

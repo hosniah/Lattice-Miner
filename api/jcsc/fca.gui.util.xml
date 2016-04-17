@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet href="xsl/package.xsl" type="text/xsl"?>
+<jcsc>
+  <classlist>
+    <package>fca.gui.util</package>
+    <classes>
+      <class>fca.gui.util.AbstractFilter</class>
+      <class>fca.gui.util.ColorSet</class>
+      <class>fca.gui.util.DialogBox</class>
+      <class>fca.gui.util.ExampleFileFilter</class>
+      <class>fca.gui.util.ScreenImage</class>
+      <class>fca.gui.util.XML_Filter</class>
+    </classes>
+  </classlist>
+</jcsc>

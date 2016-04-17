@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet href="xsl/class.xsl" type="text/xsl"?>
+<jcsc>
+  <package>fca.core.lattice.operator.search</package>
+  <class>SearchApproximateExtentSimple</class>
+  <methods>3</methods>
+  <author><![CDATA[]]></author>
+  <count>0</count>
+  <ncss>17</ncss>
+  <lines>49</lines>
+  <unittestclasses>0</unittestclasses>
+  <unittests>0</unittests>
+  <metric>
+    <method>>
+      <name>SearchApproximateExtentSimple.constructor()</name>
+      <line>19</line>
+      <column>16</column>
+      <ncss>2</ncss>
+      <ccn>1</ccn>
+    </method>
+  </metric>
+  <metric>
+    <method>>
+      <name>SearchApproximateExtentSimple.perform()</name>
+      <line>28</line>
+      <column>52</column>
+      <ncss>2</ncss>
+      <ccn>1</ccn>
+    </method>
+  </metric>
+  <metric>
+    <method>>
+      <name>SearchApproximateExtentSimple.performRec()</name>
+      <line>38</line>
+      <column>75</column>
+      <ncss>7</ncss>
+      <ccn>3</ccn>
+    </method>
+  </metric>
+</jcsc>

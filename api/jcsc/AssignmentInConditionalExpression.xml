@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet href="xsl/rule.xsl" type="text/xsl"?>
+<jcsc>
+  <category>General</category>
+  <rule>AssignmentInConditionalExpression</rule>
+  <violations>
+    <violation>
+      <rule>
+        <name>AssignmentInConditionalExpression</name>
+        <severity>3</severity>
+        <category>General</category>
+      </rule>
+      <classname>NestedContext</classname>
+      <package>fca.core.context.nested</package>
+      <line>295</line>
+      <column>40</column>
+      <message><![CDATA[assignment in conditional expression is often a mistyped '==']]></message>
+      <source>H:\eclipse\workspace\LatticeMiner\src\fca\core\context\nested\NestedContext.java</source>
+    </violation>
+    <violation>
+      <rule>
+        <name>AssignmentInConditionalExpression</name>
+        <severity>3</severity>
+        <category>General</category>
+      </rule>
+      <classname>NestedContext</classname>
+      <package>fca.core.context.nested</package>
+      <line>389</line>
+      <column>40</column>
+      <message><![CDATA[assignment in conditional expression is often a mistyped '==']]></message>
+      <source>H:\eclipse\workspace\LatticeMiner\src\fca\core\context\nested\NestedContext.java</source>
+    </violation>
+    <violation>
+      <rule>
+        <name>AssignmentInConditionalExpression</name>
+        <severity>3</severity>
+        <category>General</category>
+      </rule>
+      <classname>NestedContext</classname>
+      <package>fca.core.context.nested</package>
+      <line>412</line>
+      <column>40</column>
+      <message><![CDATA[assignment in conditional expression is often a mistyped '==']]></message>
+      <source>H:\eclipse\workspace\LatticeMiner\src\fca\core\context\nested\NestedContext.java</source>
+    </violation>
+    <violation>
+      <rule>
+        <name>AssignmentInConditionalExpression</name>
+        <severity>3</severity>
+        <category>General</category>
+      </rule>
+      <classname>NestedContext</classname>
+      <package>fca.core.context.nested</package>
+      <line>436</line>
+      <column>40</column>
+      <message><![CDATA[assignment in conditional expression is often a mistyped '==']]></message>
+      <source>H:\eclipse\workspace\LatticeMiner\src\fca\core\context\nested\NestedContext.java</source>
+    </violation>
+    <violation>
+      <rule>
+        <name>AssignmentInConditionalExpression</name>
+        <severity>3</severity>
+        <category>General</category>
+      </rule>
+      <classname>BordatAlgo</classname>
+      <package>fca.core.lattice</package>
+      <line>139</line>
+      <column>34</column>
+      <message><![CDATA[assignment in conditional expression is often a mistyped '==']]></message>
+      <source>H:\eclipse\workspace\LatticeMiner\src\fca\core\lattice\BordatAlgo.java</source>
+    </violation>
+    <violation>
+      <rule>
+        <name>AssignmentInConditionalExpression</name>
+        <severity>3</severity>
+        <category>General</category>
+      </rule>
+      <classname>NestedConcept</classname>
+      <package>fca.core.lattice</package>
+      <line>530</line>
+      <column>44</column>
+      <message><![CDATA[assignment in conditional expression is often a mistyped '==']]></message>
+      <source>H:\eclipse\workspace\LatticeMiner\src\fca\core\lattice\NestedConcept.java</source>
+    </violation>
+    <violation>
+      <rule>
+        <name>AssignmentInConditionalExpression</name>
+        <severity>3</severity>
+        <category>General</category>
+      </rule>
+      <classname>GraphicalLattice</classname>
+      <package>fca.gui.lattice.element</package>
+      <line>1296</line>
+      <column>66</column>
+      <message><![CDATA[assignment in conditional expression is often a mistyped '==']]></message>
+      <source>H:\eclipse\workspace\LatticeMiner\src\fca\gui\lattice\element\GraphicalLattice.java</source>
+    </violation>
+    <violation>
+      <rule>
+        <name>AssignmentInConditionalExpression</name>
+        <severity>3</severity>
+        <category>General</category>
+      </rule>
+      <classname>LMNestedContextReader</classname>
+      <package>fca.io.context.reader.txt</package>
+      <line>82</line>
+      <column>36</column>
+      <message><![CDATA[assignment in conditional expression is often a mistyped '==']]></message>
+      <source>H:\eclipse\workspace\LatticeMiner\src\fca\io\context\reader\txt\LMNestedContextReader.java</source>
+    </violation>
+  </violations>
+</jcsc>

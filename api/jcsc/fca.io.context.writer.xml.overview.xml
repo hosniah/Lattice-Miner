@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet href="xsl/overview.xsl" type="text/xsl"?>
+<jcsc>
+  <overview>
+    <packagename>fca.io.context.writer.xml</packagename>
+    <packagecount>0</packagecount>
+    <name>fca.io.context.writer.xml</name>
+    <classcount>2</classcount>
+    <methodscount>10</methodscount>
+    <violationscount>0</violationscount>
+    <linecount>289</linecount>
+    <ncsscount>108</ncsscount>
+    <functionpointscount>2.0377358490566038</functionpointscount>
+    <unittestclasscount>0</unittestclasscount>
+    <unittestscount>0</unittestscount>
+    <severitylevel>0</severitylevel>
+    <worstclasses>
+      <worst>
+        <class>fca.io.context.writer.xml.CexBinaryContextWriter</class>
+        <count>0</count>
+        <author><![CDATA[]]></author>
+      </worst>
+      <worst>
+        <class>fca.io.context.writer.xml.GaliciaXMLBinaryContextWriter</class>
+        <count>0</count>
+        <author><![CDATA[]]></author>
+      </worst>
+    </worstclasses>
+  </overview>
+</jcsc>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet href="xsl/severity.xsl" type="text/xsl"?>
+<jcsc>
+  <rulelist>
+    <severity>All Severities</severity>
+    <rules>
+      <rule>
+        <name>AssignmentInConditionalExpression</name>
+        <severity>3</severity>
+        <category>General</category>
+      </rule>
+      <rule>
+        <name>CFPacRegExp</name>
+        <severity>3</severity>
+        <category>Field</category>
+      </rule>
+      <rule>
+        <name>CFPriRegExp</name>
+        <severity>3</severity>
+        <category>Field</category>
+      </rule>
+      <rule>
+        <name>FCFPriRegExp</name>
+        <severity>3</severity>
+        <category>Field</category>
+      </rule>
+      <rule>
+        <name>FieldBlockPlaceRule</name>
+        <severity>3</severity>
+        <category>Field</category>
+      </rule>
+      <rule>
+        <name>IMetPubRegExp</name>
+        <severity>3</severity>
+        <category>Method</category>
+      </rule>
+      <rule>
+        <name>MaxNumberOfCCNPerConstructor</name>
+        <severity>4</severity>
+        <category>Metrics</category>
+      </rule>
+      <rule>
+        <name>MaxNumberOfCCNPerMethod</name>
+        <severity>4</severity>
+        <category>Metrics</category>
+      </rule>
+      <rule>
+        <name>MaxNumberOfNCSSPerConstructor</name>
+        <severity>4</severity>
+        <category>Metrics</category>
+      </rule>
+      <rule>
+        <name>MaxNumberOfNCSSPerMethod</name>
+        <severity>4</severity>
+        <category>Metrics</category>
+      </rule>
+      <rule>
+        <name>SpaceAfterStatementKeyword</name>
+        <severity>3</severity>
+        <category>General</category>
+      </rule>
+    </rules>
+  </rulelist>
+</jcsc>

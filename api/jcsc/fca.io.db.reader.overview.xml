@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet href="xsl/overview.xsl" type="text/xsl"?>
+<jcsc>
+  <overview>
+    <packagename>fca.io.db.reader</packagename>
+    <packagecount>0</packagecount>
+    <name>fca.io.db.reader</name>
+    <classcount>1</classcount>
+    <methodscount>3</methodscount>
+    <violationscount>1</violationscount>
+    <linecount>36</linecount>
+    <ncsscount>24</ncsscount>
+    <functionpointscount>0.4528301886792453</functionpointscount>
+    <unittestclasscount>0</unittestclasscount>
+    <unittestscount>0</unittestscount>
+    <severitylevel>3</severitylevel>
+    <worstclasses>
+      <worst>
+        <class>fca.io.db.reader.OracleConnection</class>
+        <count>1</count>
+        <author><![CDATA[]]></author>
+      </worst>
+    </worstclasses>
+  </overview>
+</jcsc>

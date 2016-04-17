@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet href="xsl/package.xsl" type="text/xsl"?>
+<jcsc>
+  <classlist>
+    <package>fca.gui.util.constant</package>
+    <classes>
+      <class>fca.gui.util.constant.LMColors</class>
+      <class>fca.gui.util.constant.LMHistory</class>
+      <class>fca.gui.util.constant.LMIcons</class>
+      <class>fca.gui.util.constant.LMImages</class>
+      <class>fca.gui.util.constant.LMOptions</class>
+      <class>fca.gui.util.constant.LMPreferences</class>
+    </classes>
+  </classlist>
+</jcsc>

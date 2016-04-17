@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet href="xsl/class.xsl" type="text/xsl"?>
+<jcsc>
+  <package>fca</package>
+  <class>TestMain</class>
+  <methods>1</methods>
+  <author><![CDATA[]]></author>
+  <count>1</count>
+  <ncss>39</ncss>
+  <lines>66</lines>
+  <unittestclasses>0</unittestclasses>
+  <unittests>0</unittests>
+  <violation>
+    <rule>
+      <name>MaxNumberOfNCSSPerMethod</name>
+      <severity>4</severity>
+      <category>Metrics</category>
+    </rule>
+    <classname>TestMain</classname>
+    <package>fca</package>
+    <line>20</line>
+    <column>46</column>
+    <message><![CDATA[method declaration 'main' has too many NCSS (35) - 25 are allowed]]></message>
+    <source>H:\eclipse\workspace\LatticeMiner\src\fca\TestMain.java</source>
+  </violation>
+  <metric>
+    <method>>
+      <name>TestMain.main()</name>
+      <line>20</line>
+      <column>46</column>
+      <ncss>35</ncss>
+      <ccn>2</ccn>
+    </method>
+  </metric>
+</jcsc>

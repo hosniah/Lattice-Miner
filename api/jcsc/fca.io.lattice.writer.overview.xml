@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet href="xsl/overview.xsl" type="text/xsl"?>
+<jcsc>
+  <overview>
+    <packagename>fca.io.lattice.writer</packagename>
+    <packagecount>0</packagecount>
+    <name>fca.io.lattice.writer</name>
+    <classcount>1</classcount>
+    <methodscount>6</methodscount>
+    <violationscount>0</violationscount>
+    <linecount>80</linecount>
+    <ncsscount>26</ncsscount>
+    <functionpointscount>0.49056603773584906</functionpointscount>
+    <unittestclasscount>0</unittestclasscount>
+    <unittestscount>0</unittestscount>
+    <severitylevel>0</severitylevel>
+    <worstclasses>
+      <worst>
+        <class>fca.io.lattice.writer.LatticeWriterXML</class>
+        <count>0</count>
+        <author><![CDATA[]]></author>
+      </worst>
+    </worstclasses>
+  </overview>
+</jcsc>

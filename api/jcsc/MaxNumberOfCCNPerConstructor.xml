@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet href="xsl/rule.xsl" type="text/xsl"?>
+<jcsc>
+  <category>Metrics</category>
+  <rule>MaxNumberOfCCNPerConstructor</rule>
+  <violations>
+    <violation>
+      <rule>
+        <name>MaxNumberOfCCNPerConstructor</name>
+        <severity>4</severity>
+        <category>Metrics</category>
+      </rule>
+      <classname>Context</classname>
+      <package>fca.core.context</package>
+      <line>120</line>
+      <column>16</column>
+      <message><![CDATA[constructor declaration has a too high CCN (7) - 5 are allowed]]></message>
+      <source>H:\eclipse\workspace\LatticeMiner\src\fca\core\context\Context.java</source>
+    </violation>
+    <violation>
+      <rule>
+        <name>MaxNumberOfCCNPerConstructor</name>
+        <severity>4</severity>
+        <category>Metrics</category>
+      </rule>
+      <classname>NestedContext</classname>
+      <package>fca.core.context.nested</package>
+      <line>36</line>
+      <column>16</column>
+      <message><![CDATA[constructor declaration has a too high CCN (9) - 5 are allowed]]></message>
+      <source>H:\eclipse\workspace\LatticeMiner\src\fca\core\context\nested\NestedContext.java</source>
+    </violation>
+    <violation>
+      <rule>
+        <name>MaxNumberOfCCNPerConstructor</name>
+        <severity>4</severity>
+        <category>Metrics</category>
+      </rule>
+      <classname>NestedLattice</classname>
+      <package>fca.core.lattice</package>
+      <line>52</line>
+      <column>16</column>
+      <message><![CDATA[constructor declaration has a too high CCN (6) - 5 are allowed]]></message>
+      <source>H:\eclipse\workspace\LatticeMiner\src\fca\core\lattice\NestedLattice.java</source>
+    </violation>
+    <violation>
+      <rule>
+        <name>MaxNumberOfCCNPerConstructor</name>
+        <severity>4</severity>
+        <category>Metrics</category>
+      </rule>
+      <classname>LatticeStructure</classname>
+      <package>fca.gui.lattice.element</package>
+      <line>102</line>
+      <column>16</column>
+      <message><![CDATA[constructor declaration has a too high CCN (15) - 5 are allowed]]></message>
+      <source>H:\eclipse\workspace\LatticeMiner\src\fca\gui\lattice\element\LatticeStructure.java</source>
+    </violation>
+    <violation>
+      <rule>
+        <name>MaxNumberOfCCNPerConstructor</name>
+        <severity>4</severity>
+        <category>Metrics</category>
+      </rule>
+      <classname>Projection</classname>
+      <package>fca.gui.lattice.tool</package>
+      <line>79</line>
+      <column>16</column>
+      <message><![CDATA[constructor declaration has a too high CCN (6) - 5 are allowed]]></message>
+      <source>H:\eclipse\workspace\LatticeMiner\src\fca\gui\lattice\tool\Projection.java</source>
+    </violation>
+  </violations>
+</jcsc>

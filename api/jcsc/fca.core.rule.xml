@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet href="xsl/package.xsl" type="text/xsl"?>
+<jcsc>
+  <classlist>
+    <package>fca.core.rule</package>
+    <classes>
+      <class>fca.core.rule.GenericBasisAlgorithm</class>
+      <class>fca.core.rule.InformativeBasisAlgorithm</class>
+      <class>fca.core.rule.Rule</class>
+      <class>fca.core.rule.RuleAlgorithm</class>
+    </classes>
+  </classlist>
+</jcsc>

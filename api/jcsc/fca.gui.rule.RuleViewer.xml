@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet href="xsl/class.xsl" type="text/xsl"?>
+<jcsc>
+  <package>fca.gui.rule</package>
+  <class>RuleViewer</class>
+  <methods>3</methods>
+  <author><![CDATA[]]></author>
+  <count>2</count>
+  <ncss>130</ncss>
+  <lines>225</lines>
+  <unittestclasses>0</unittestclasses>
+  <unittests>0</unittests>
+  <violation>
+    <rule>
+      <name>FCFPriRegExp</name>
+      <severity>3</severity>
+      <category>Field</category>
+    </rule>
+    <classname>RuleViewer</classname>
+    <package>fca.gui.rule</package>
+    <line>32</line>
+    <column>54</column>
+    <message><![CDATA[field declaration 'serialVersionUID' must match the following regexp '[A-Z][A-Z0-9_]*]]></message>
+    <source>H:\eclipse\workspace\LatticeMiner\src\fca\gui\rule\RuleViewer.java</source>
+  </violation>
+  <violation>
+    <rule>
+      <name>MaxNumberOfNCSSPerMethod</name>
+      <severity>4</severity>
+      <category>Metrics</category>
+    </rule>
+    <classname>RuleViewer</classname>
+    <package>fca.gui.rule</package>
+    <line>73</line>
+    <column>35</column>
+    <message><![CDATA[method declaration 'buildPanel' has too many NCSS (84) - 25 are allowed]]></message>
+    <source>H:\eclipse\workspace\LatticeMiner\src\fca\gui\rule\RuleViewer.java</source>
+  </violation>
+  <metric>
+    <method>>
+      <name>RuleViewer.constructor()</name>
+      <line>52</line>
+      <column>16</column>
+      <ncss>13</ncss>
+      <ccn>1</ccn>
+    </method>
+  </metric>
+  <metric>
+    <method>>
+      <name>RuleViewer.java.awt.event.ActionListener.actionPerformed()</name>
+      <line>189</line>
+      <column>81</column>
+      <ncss>14</ncss>
+      <ccn>4</ccn>
+    </method>
+  </metric>
+  <metric>
+    <method>>
+      <name>RuleViewer.buildPanel()</name>
+      <line>73</line>
+      <column>35</column>
+      <ncss>84</ncss>
+      <ccn>1</ccn>
+    </method>
+  </metric>
+</jcsc>

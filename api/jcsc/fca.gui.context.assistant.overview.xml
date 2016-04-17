@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet href="xsl/overview.xsl" type="text/xsl"?>
+<jcsc>
+  <overview>
+    <packagename>fca.gui.context.assistant</packagename>
+    <packagecount>0</packagecount>
+    <name>fca.gui.context.assistant</name>
+    <classcount>3</classcount>
+    <methodscount>19</methodscount>
+    <violationscount>9</violationscount>
+    <linecount>1463</linecount>
+    <ncsscount>984</ncsscount>
+    <functionpointscount>18.566037735849058</functionpointscount>
+    <unittestclasscount>0</unittestclasscount>
+    <unittestscount>0</unittestscount>
+    <severitylevel>4</severitylevel>
+    <worstclasses>
+      <worst>
+        <class>fca.gui.context.assistant.ValuedContextConversionAssistant</class>
+        <count>5</count>
+        <author><![CDATA[]]></author>
+      </worst>
+      <worst>
+        <class>fca.gui.context.assistant.LevelAdditionAssistant</class>
+        <count>2</count>
+        <author><![CDATA[]]></author>
+      </worst>
+      <worst>
+        <class>fca.gui.context.assistant.NestedContextCreationAssistant</class>
+        <count>2</count>
+        <author><![CDATA[]]></author>
+      </worst>
+    </worstclasses>
+  </overview>
+</jcsc>

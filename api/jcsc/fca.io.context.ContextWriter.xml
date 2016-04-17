@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet href="xsl/class.xsl" type="text/xsl"?>
+<jcsc>
+  <package>fca.io.context</package>
+  <class>ContextWriter</class>
+  <methods>2</methods>
+  <author><![CDATA[]]></author>
+  <count>0</count>
+  <ncss>16</ncss>
+  <lines>49</lines>
+  <unittestclasses>0</unittestclasses>
+  <unittests>0</unittests>
+  <metric>
+    <method>>
+      <name>ContextWriter.constructor()</name>
+      <line>34</line>
+      <column>16</column>
+      <ncss>6</ncss>
+      <ccn>1</ccn>
+    </method>
+  </metric>
+  <metric>
+    <method>>
+      <name>ContextWriter.writeContext()</name>
+      <line>48</line>
+      <column>46</column>
+      <ncss>1</ncss>
+      <ccn>1</ccn>
+    </method>
+  </metric>
+</jcsc>

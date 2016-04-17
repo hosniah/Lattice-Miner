@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet href="xsl/overview.xsl" type="text/xsl"?>
+<jcsc>
+  <overview>
+    <packagename>fca.io.context.writer</packagename>
+    <packagecount>0</packagecount>
+    <name>fca.io.context.writer</name>
+    <classcount>2</classcount>
+    <methodscount>12</methodscount>
+    <violationscount>0</violationscount>
+    <linecount>157</linecount>
+    <ncsscount>50</ncsscount>
+    <functionpointscount>0.9433962264150944</functionpointscount>
+    <unittestclasscount>0</unittestclasscount>
+    <unittestscount>0</unittestscount>
+    <severitylevel>0</severitylevel>
+    <worstclasses>
+      <worst>
+        <class>fca.io.context.writer.ContextWriterTXT</class>
+        <count>0</count>
+        <author><![CDATA[]]></author>
+      </worst>
+      <worst>
+        <class>fca.io.context.writer.ContextWriterXML</class>
+        <count>0</count>
+        <author><![CDATA[]]></author>
+      </worst>
+    </worstclasses>
+  </overview>
+</jcsc>

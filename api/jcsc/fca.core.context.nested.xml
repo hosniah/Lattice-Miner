@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet href="xsl/package.xsl" type="text/xsl"?>
+<jcsc>
+  <classlist>
+    <package>fca.core.context.nested</package>
+    <classes>
+      <class>fca.core.context.nested.NestedContext</class>
+      <class>fca.core.context.nested.RankingAlgo</class>
+      <class>fca.core.context.nested.SupervisedMultivaluedRankingAlgo</class>
+      <class>fca.core.context.nested.UnsupervisedMultivaluedRankingAlgo</class>
+    </classes>
+  </classlist>
+</jcsc>

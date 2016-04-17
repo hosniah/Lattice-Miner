@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet href="xsl/overview.xsl" type="text/xsl"?>
+<jcsc>
+  <overview>
+    <packagename>fca.io.context.reader.xml</packagename>
+    <packagecount>0</packagecount>
+    <name>fca.io.context.reader.xml</name>
+    <classcount>2</classcount>
+    <methodscount>10</methodscount>
+    <violationscount>0</violationscount>
+    <linecount>187</linecount>
+    <ncsscount>77</ncsscount>
+    <functionpointscount>1.4528301886792452</functionpointscount>
+    <unittestclasscount>0</unittestclasscount>
+    <unittestscount>0</unittestscount>
+    <severitylevel>0</severitylevel>
+    <worstclasses>
+      <worst>
+        <class>fca.io.context.reader.xml.CexBinaryContextReader</class>
+        <count>0</count>
+        <author><![CDATA[]]></author>
+      </worst>
+      <worst>
+        <class>fca.io.context.reader.xml.GaliciaXMLBinaryContextReader</class>
+        <count>0</count>
+        <author><![CDATA[]]></author>
+      </worst>
+    </worstclasses>
+  </overview>
+</jcsc>

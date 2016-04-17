@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet href="xsl/class.xsl" type="text/xsl"?>
+<jcsc>
+  <package>fca.gui.context.table</package>
+  <class>NestedRowHeaderTable</class>
+  <methods>3</methods>
+  <author><![CDATA[]]></author>
+  <count>1</count>
+  <ncss>22</ncss>
+  <lines>55</lines>
+  <unittestclasses>0</unittestclasses>
+  <unittests>0</unittests>
+  <violation>
+    <rule>
+      <name>FCFPriRegExp</name>
+      <severity>3</severity>
+      <category>Field</category>
+    </rule>
+    <classname>NestedRowHeaderTable</classname>
+    <package>fca.gui.context.table</package>
+    <line>22</line>
+    <column>55</column>
+    <message><![CDATA[field declaration 'serialVersionUID' must match the following regexp '[A-Z][A-Z0-9_]*]]></message>
+    <source>H:\eclipse\workspace\LatticeMiner\src\fca\gui\context\table\NestedRowHeaderTable.java</source>
+  </violation>
+  <metric>
+    <method>>
+      <name>NestedRowHeaderTable.constructor()</name>
+      <line>29</line>
+      <column>16</column>
+      <ncss>6</ncss>
+      <ccn>1</ccn>
+    </method>
+  </metric>
+  <metric>
+    <method>>
+      <name>NestedRowHeaderTable.getCellRenderer()</name>
+      <line>42</line>
+      <column>70</column>
+      <ncss>4</ncss>
+      <ccn>1</ccn>
+    </method>
+  </metric>
+  <metric>
+    <method>>
+      <name>NestedRowHeaderTable.setModelFromRelation()</name>
+      <line>53</line>
+      <column>53</column>
+      <ncss>2</ncss>
+      <ccn>1</ccn>
+    </method>
+  </metric>
+</jcsc>

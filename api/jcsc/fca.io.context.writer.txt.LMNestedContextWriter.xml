@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet href="xsl/class.xsl" type="text/xsl"?>
+<jcsc>
+  <package>fca.io.context.writer.txt</package>
+  <class>LMNestedContextWriter</class>
+  <methods>4</methods>
+  <author><![CDATA[]]></author>
+  <count>0</count>
+  <ncss>36</ncss>
+  <lines>82</lines>
+  <unittestclasses>0</unittestclasses>
+  <unittests>0</unittests>
+  <metric>
+    <method>>
+      <name>LMNestedContextWriter.constructor()</name>
+      <line>26</line>
+      <column>16</column>
+      <ncss>2</ncss>
+      <ccn>1</ccn>
+    </method>
+  </metric>
+  <metric>
+    <method>>
+      <name>LMNestedContextWriter.writeObjects()</name>
+      <line>35</line>
+      <column>37</column>
+      <ncss>6</ncss>
+      <ccn>2</ccn>
+    </method>
+  </metric>
+  <metric>
+    <method>>
+      <name>LMNestedContextWriter.writeAttributes()</name>
+      <line>49</line>
+      <column>40</column>
+      <ncss>1</ncss>
+      <ccn>1</ccn>
+    </method>
+  </metric>
+  <metric>
+    <method>>
+      <name>LMNestedContextWriter.writeData()</name>
+      <line>57</line>
+      <column>34</column>
+      <ncss>18</ncss>
+      <ccn>6</ccn>
+    </method>
+  </metric>
+</jcsc>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet href="xsl/overview.xsl" type="text/xsl"?>
+<jcsc>
+  <overview>
+    <packagename>fca.gui.util</packagename>
+    <packagecount>0</packagecount>
+    <name>fca.gui.util</name>
+    <classcount>6</classcount>
+    <methodscount>44</methodscount>
+    <violationscount>2</violationscount>
+    <linecount>768</linecount>
+    <ncsscount>227</ncsscount>
+    <functionpointscount>4.283018867924528</functionpointscount>
+    <unittestclasscount>0</unittestclasscount>
+    <unittestscount>0</unittestscount>
+    <severitylevel>3</severitylevel>
+    <worstclasses>
+      <worst>
+        <class>fca.gui.util.AbstractFilter</class>
+        <count>2</count>
+        <author><![CDATA[]]></author>
+      </worst>
+      <worst>
+        <class>fca.gui.util.ColorSet</class>
+        <count>0</count>
+        <author><![CDATA[]]></author>
+      </worst>
+      <worst>
+        <class>fca.gui.util.DialogBox</class>
+        <count>0</count>
+        <author><![CDATA[]]></author>
+      </worst>
+      <worst>
+        <class>fca.gui.util.ExampleFileFilter</class>
+        <count>0</count>
+        <author><![CDATA[]]></author>
+      </worst>
+      <worst>
+        <class>fca.gui.util.ScreenImage</class>
+        <count>0</count>
+        <author><![CDATA[]]></author>
+      </worst>
+      <worst>
+        <class>fca.gui.util.XML_Filter</class>
+        <count>0</count>
+        <author><![CDATA[]]></author>
+      </worst>
+    </worstclasses>
+  </overview>
+</jcsc>

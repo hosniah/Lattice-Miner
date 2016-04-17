@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet href="xsl/class.xsl" type="text/xsl"?>
+<jcsc>
+  <package>fca</package>
+  <class>LatticeMiner</class>
+  <methods>1</methods>
+  <author><![CDATA[]]></author>
+  <count>0</count>
+  <ncss>17</ncss>
+  <lines>54</lines>
+  <unittestclasses>0</unittestclasses>
+  <unittests>0</unittests>
+  <metric>
+    <method>>
+      <name>LatticeMiner.main()</name>
+      <line>30</line>
+      <column>46</column>
+      <ncss>9</ncss>
+      <ccn>2</ccn>
+    </method>
+  </metric>
+</jcsc>

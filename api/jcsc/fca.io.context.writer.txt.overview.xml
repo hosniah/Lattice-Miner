@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet href="xsl/overview.xsl" type="text/xsl"?>
+<jcsc>
+  <overview>
+    <packagename>fca.io.context.writer.txt</packagename>
+    <packagecount>0</packagecount>
+    <name>fca.io.context.writer.txt</name>
+    <classcount>4</classcount>
+    <methodscount>17</methodscount>
+    <violationscount>0</violationscount>
+    <linecount>319</linecount>
+    <ncsscount>137</ncsscount>
+    <functionpointscount>2.5849056603773586</functionpointscount>
+    <unittestclasscount>0</unittestclasscount>
+    <unittestscount>0</unittestscount>
+    <severitylevel>0</severitylevel>
+    <worstclasses>
+      <worst>
+        <class>fca.io.context.writer.txt.GaliciaSLFBinaryContextWriter</class>
+        <count>0</count>
+        <author><![CDATA[]]></author>
+      </worst>
+      <worst>
+        <class>fca.io.context.writer.txt.LMBinaryContextWriter</class>
+        <count>0</count>
+        <author><![CDATA[]]></author>
+      </worst>
+      <worst>
+        <class>fca.io.context.writer.txt.LMNestedContextWriter</class>
+        <count>0</count>
+        <author><![CDATA[]]></author>
+      </worst>
+      <worst>
+        <class>fca.io.context.writer.txt.LMValuedContextWriter</class>
+        <count>0</count>
+        <author><![CDATA[]]></author>
+      </worst>
+    </worstclasses>
+  </overview>
+</jcsc>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet href="xsl/overview.xsl" type="text/xsl"?>
+<jcsc>
+  <overview>
+    <packagename>fca.core.context.nested</packagename>
+    <packagecount>0</packagecount>
+    <name>fca.core.context.nested</name>
+    <classcount>4</classcount>
+    <methodscount>45</methodscount>
+    <violationscount>11</violationscount>
+    <linecount>1049</linecount>
+    <ncsscount>536</ncsscount>
+    <functionpointscount>10.11320754716981</functionpointscount>
+    <unittestclasscount>0</unittestclasscount>
+    <unittestscount>0</unittestscount>
+    <severitylevel>4</severitylevel>
+    <worstclasses>
+      <worst>
+        <class>fca.core.context.nested.NestedContext</class>
+        <count>8</count>
+        <author><![CDATA[]]></author>
+      </worst>
+      <worst>
+        <class>fca.core.context.nested.UnsupervisedMultivaluedRankingAlgo</class>
+        <count>2</count>
+        <author><![CDATA[]]></author>
+      </worst>
+      <worst>
+        <class>fca.core.context.nested.SupervisedMultivaluedRankingAlgo</class>
+        <count>1</count>
+        <author><![CDATA[]]></author>
+      </worst>
+      <worst>
+        <class>fca.core.context.nested.RankingAlgo</class>
+        <count>0</count>
+        <author><![CDATA[]]></author>
+      </worst>
+    </worstclasses>
+  </overview>
+</jcsc>

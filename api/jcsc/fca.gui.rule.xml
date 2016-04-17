@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet href="xsl/package.xsl" type="text/xsl"?>
+<jcsc>
+  <classlist>
+    <package>fca.gui.rule</package>
+    <classes>
+      <class>fca.gui.rule.RuleTable</class>
+      <class>fca.gui.rule.RuleTableModel</class>
+      <class>fca.gui.rule.RuleViewer</class>
+    </classes>
+  </classlist>
+</jcsc>

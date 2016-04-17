@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet href="xsl/package.xsl" type="text/xsl"?>
+<jcsc>
+  <classlist>
+    <package>fca.gui.context.panel</package>
+    <classes>
+      <class>fca.gui.context.panel.LevelCreationPanel</class>
+      <class>fca.gui.context.panel.LogicalAttributePanel</class>
+      <class>fca.gui.context.panel.MergeAttributesPanel</class>
+      <class>fca.gui.context.panel.RemoveAttributesPanel</class>
+      <class>fca.gui.context.panel.RemoveObjectsPanel</class>
+    </classes>
+  </classlist>
+</jcsc>

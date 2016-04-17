@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet href="xsl/class.xsl" type="text/xsl"?>
+<jcsc>
+  <package>fca.core.lattice.operator</package>
+  <class>Operator</class>
+  <methods>4</methods>
+  <author><![CDATA[]]></author>
+  <count>0</count>
+  <ncss>17</ncss>
+  <lines>71</lines>
+  <unittestclasses>0</unittestclasses>
+  <unittests>0</unittests>
+  <metric>
+    <method>>
+      <name>Operator.constructor()</name>
+      <line>43</line>
+      <column>16</column>
+      <ncss>5</ncss>
+      <ccn>1</ccn>
+    </method>
+  </metric>
+  <metric>
+    <method>>
+      <name>Operator.perform()</name>
+      <line>55</line>
+      <column>42</column>
+      <ncss>1</ncss>
+      <ccn>1</ccn>
+    </method>
+  </metric>
+  <metric>
+    <method>>
+      <name>Operator.getOperatorName()</name>
+      <line>60</line>
+      <column>39</column>
+      <ncss>2</ncss>
+      <ccn>1</ccn>
+    </method>
+  </metric>
+  <metric>
+    <method>>
+      <name>Operator.getOperatorVersion()</name>
+      <line>67</line>
+      <column>42</column>
+      <ncss>2</ncss>
+      <ccn>1</ccn>
+    </method>
+  </metric>
+</jcsc>

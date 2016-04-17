@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet href="xsl/package.xsl" type="text/xsl"?>
+<jcsc>
+  <classlist>
+    <package>fca.core.lattice.operator.projection</package>
+    <classes>
+      <class>fca.core.lattice.operator.projection.BasicAttributeProjection</class>
+      <class>fca.core.lattice.operator.projection.BasicObjectProjection</class>
+      <class>fca.core.lattice.operator.projection.BasicProjection</class>
+      <class>fca.core.lattice.operator.projection.ImprovedAttributeProjection</class>
+      <class>fca.core.lattice.operator.projection.ImprovedObjectProjection</class>
+      <class>fca.core.lattice.operator.projection.ImprovedProjection</class>
+    </classes>
+  </classlist>
+</jcsc>

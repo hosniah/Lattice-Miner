@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet href="xsl/class.xsl" type="text/xsl"?>
+<jcsc>
+  <package>fca.gui.context.panel</package>
+  <class>LogicalAttributePanel</class>
+  <methods>3</methods>
+  <author><![CDATA[]]></author>
+  <count>3</count>
+  <ncss>259</ncss>
+  <lines>368</lines>
+  <unittestclasses>0</unittestclasses>
+  <unittests>0</unittests>
+  <violation>
+    <rule>
+      <name>FCFPriRegExp</name>
+      <severity>3</severity>
+      <category>Field</category>
+    </rule>
+    <classname>LogicalAttributePanel</classname>
+    <package>fca.gui.context.panel</package>
+    <line>45</line>
+    <column>55</column>
+    <message><![CDATA[field declaration 'serialVersionUID' must match the following regexp '[A-Z][A-Z0-9_]*]]></message>
+    <source>H:\eclipse\workspace\LatticeMiner\src\fca\gui\context\panel\LogicalAttributePanel.java</source>
+  </violation>
+  <violation>
+    <rule>
+      <name>MaxNumberOfNCSSPerConstructor</name>
+      <severity>4</severity>
+      <category>Metrics</category>
+    </rule>
+    <classname>LogicalAttributePanel</classname>
+    <package>fca.gui.context.panel</package>
+    <line>90</line>
+    <column>16</column>
+    <message><![CDATA[constructor has too many NCSS (135) - 25 are allowed]]></message>
+    <source>H:\eclipse\workspace\LatticeMiner\src\fca\gui\context\panel\LogicalAttributePanel.java</source>
+  </violation>
+  <violation>
+    <rule>
+      <name>MaxNumberOfNCSSPerMethod</name>
+      <severity>4</severity>
+      <category>Metrics</category>
+    </rule>
+    <classname>LogicalAttributePanel</classname>
+    <package>fca.gui.context.panel</package>
+    <line>276</line>
+    <column>50</column>
+    <message><![CDATA[method declaration 'actionPerformed' has too many NCSS (73) - 25 are allowed]]></message>
+    <source>H:\eclipse\workspace\LatticeMiner\src\fca\gui\context\panel\LogicalAttributePanel.java</source>
+  </violation>
+  <metric>
+    <method>>
+      <name>LogicalAttributePanel.constructor()</name>
+      <line>90</line>
+      <column>16</column>
+      <ncss>135</ncss>
+      <ccn>3</ccn>
+    </method>
+  </metric>
+  <metric>
+    <method>>
+      <name>LogicalAttributePanel.open()</name>
+      <line>267</line>
+      <column>26</column>
+      <ncss>2</ncss>
+      <ccn>1</ccn>
+    </method>
+  </metric>
+  <metric>
+    <method>>
+      <name>LogicalAttributePanel.actionPerformed()</name>
+      <line>276</line>
+      <column>50</column>
+      <ncss>73</ncss>
+      <ccn>10</ccn>
+    </method>
+  </metric>
+</jcsc>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet href="xsl/overview.xsl" type="text/xsl"?>
+<jcsc>
+  <overview>
+    <packagename>fca</packagename>
+    <packagecount>0</packagecount>
+    <name>fca</name>
+    <classcount>2</classcount>
+    <methodscount>2</methodscount>
+    <violationscount>1</violationscount>
+    <linecount>120</linecount>
+    <ncsscount>56</ncsscount>
+    <functionpointscount>1.0566037735849056</functionpointscount>
+    <unittestclasscount>0</unittestclasscount>
+    <unittestscount>0</unittestscount>
+    <severitylevel>4</severitylevel>
+    <worstclasses>
+      <worst>
+        <class>fca.TestMain</class>
+        <count>1</count>
+        <author><![CDATA[]]></author>
+      </worst>
+      <worst>
+        <class>fca.LatticeMiner</class>
+        <count>0</count>
+        <author><![CDATA[]]></author>
+      </worst>
+    </worstclasses>
+  </overview>
+</jcsc>

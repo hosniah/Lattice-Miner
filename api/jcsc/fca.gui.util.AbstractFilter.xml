@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet href="xsl/class.xsl" type="text/xsl"?>
+<jcsc>
+  <package>fca.gui.util</package>
+  <class>AbstractFilter</class>
+  <methods>3</methods>
+  <author><![CDATA[]]></author>
+  <count>2</count>
+  <ncss>11</ncss>
+  <lines>67</lines>
+  <unittestclasses>0</unittestclasses>
+  <unittests>0</unittests>
+  <violation>
+    <rule>
+      <name>SpaceAfterStatementKeyword</name>
+      <severity>3</severity>
+      <category>General</category>
+    </rule>
+    <classname>AbstractFilter</classname>
+    <package>fca.gui.util</package>
+    <line>56</line>
+    <column>11</column>
+    <message><![CDATA[A space after statement keyword 'if' is mandatory]]></message>
+    <source>H:\eclipse\workspace\LatticeMiner\src\fca\gui\util\AbstractFilter.java</source>
+  </violation>
+  <violation>
+    <rule>
+      <name>SpaceAfterStatementKeyword</name>
+      <severity>3</severity>
+      <category>General</category>
+    </rule>
+    <classname>AbstractFilter</classname>
+    <package>fca.gui.util</package>
+    <line>57</line>
+    <column>19</column>
+    <message><![CDATA[A space after statement keyword 'if' is mandatory]]></message>
+    <source>H:\eclipse\workspace\LatticeMiner\src\fca\gui\util\AbstractFilter.java</source>
+  </violation>
+  <metric>
+    <method>>
+      <name>AbstractFilter.getDescription()</name>
+      <line>47</line>
+      <column>41</column>
+      <ncss>1</ncss>
+      <ccn>1</ccn>
+    </method>
+  </metric>
+  <metric>
+    <method>>
+      <name>AbstractFilter.accept()</name>
+      <line>54</line>
+      <column>31</column>
+      <ncss>5</ncss>
+      <ccn>4</ccn>
+    </method>
+  </metric>
+  <metric>
+    <method>>
+      <name>AbstractFilter.getFileExtension()</name>
+      <line>66</line>
+      <column>43</column>
+      <ncss>1</ncss>
+      <ccn>1</ccn>
+    </method>
+  </metric>
+</jcsc>

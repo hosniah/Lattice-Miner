@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet href="xsl/class.xsl" type="text/xsl"?>
+<jcsc>
+  <package>fca.messages</package>
+  <class>ExceptionMessages</class>
+  <methods>2</methods>
+  <author><![CDATA[]]></author>
+  <count>0</count>
+  <ncss>11</ncss>
+  <lines>25</lines>
+  <unittestclasses>0</unittestclasses>
+  <unittests>0</unittests>
+  <metric>
+    <method>>
+      <name>ExceptionMessages.constructor()</name>
+      <line>15</line>
+      <column>17</column>
+      <ncss>1</ncss>
+      <ccn>1</ccn>
+    </method>
+  </metric>
+  <metric>
+    <method>>
+      <name>ExceptionMessages.getString()</name>
+      <line>18</line>
+      <column>50</column>
+      <ncss>4</ncss>
+      <ccn>3</ccn>
+    </method>
+  </metric>
+</jcsc>

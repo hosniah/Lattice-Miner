@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet href="xsl/package.xsl" type="text/xsl"?>
+<jcsc>
+  <classlist>
+    <package>fca.core.lattice</package>
+    <classes>
+      <class>fca.core.lattice.BordatAlgo</class>
+      <class>fca.core.lattice.ConceptLattice</class>
+      <class>fca.core.lattice.DataCel</class>
+      <class>fca.core.lattice.FormalConcept</class>
+      <class>fca.core.lattice.IncrementalAlgo</class>
+      <class>fca.core.lattice.IncrementalAlgoProxy</class>
+      <class>fca.core.lattice.JenAlgorithm</class>
+      <class>fca.core.lattice.NestedConcept</class>
+      <class>fca.core.lattice.NestedLattice</class>
+      <class>fca.core.lattice.NourineRaynaudAlgo</class>
+    </classes>
+  </classlist>
+</jcsc>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet href="xsl/package.xsl" type="text/xsl"?>
+<jcsc>
+  <classlist>
+    <package>fca.io.context.writer.xml</package>
+    <classes>
+      <class>fca.io.context.writer.xml.CexBinaryContextWriter</class>
+      <class>fca.io.context.writer.xml.GaliciaXMLBinaryContextWriter</class>
+    </classes>
+  </classlist>
+</jcsc>

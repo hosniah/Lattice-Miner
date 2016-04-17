@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet href="xsl/package.xsl" type="text/xsl"?>
+<jcsc>
+  <classlist>
+    <package>fca.gui.context.table.model</package>
+    <classes>
+      <class>fca.gui.context.table.model.BinaryContextTableModel</class>
+      <class>fca.gui.context.table.model.ContextTableModel</class>
+      <class>fca.gui.context.table.model.NestedContextTableModel</class>
+      <class>fca.gui.context.table.model.NestedRowHeaderModel</class>
+      <class>fca.gui.context.table.model.RowHeaderModel</class>
+      <class>fca.gui.context.table.model.SubContextTableModel</class>
+      <class>fca.gui.context.table.model.ValuedContextTableModel</class>
+    </classes>
+  </classlist>
+</jcsc>

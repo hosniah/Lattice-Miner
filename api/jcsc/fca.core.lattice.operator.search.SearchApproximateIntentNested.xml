@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet href="xsl/class.xsl" type="text/xsl"?>
+<jcsc>
+  <package>fca.core.lattice.operator.search</package>
+  <class>SearchApproximateIntentNested</class>
+  <methods>3</methods>
+  <author><![CDATA[]]></author>
+  <count>0</count>
+  <ncss>39</ncss>
+  <lines>88</lines>
+  <unittestclasses>0</unittestclasses>
+  <unittests>0</unittests>
+  <metric>
+    <method>>
+      <name>SearchApproximateIntentNested.constructor()</name>
+      <line>22</line>
+      <column>16</column>
+      <ncss>3</ncss>
+      <ccn>1</ccn>
+    </method>
+  </metric>
+  <metric>
+    <method>>
+      <name>SearchApproximateIntentNested.perform()</name>
+      <line>32</line>
+      <column>60</column>
+      <ncss>22</ncss>
+      <ccn>6</ccn>
+    </method>
+  </metric>
+  <metric>
+    <method>>
+      <name>SearchApproximateIntentNested.performRec()</name>
+      <line>77</line>
+      <column>75</column>
+      <ncss>7</ncss>
+      <ccn>3</ccn>
+    </method>
+  </metric>
+</jcsc>

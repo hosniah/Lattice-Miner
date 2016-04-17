@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet href="xsl/class.xsl" type="text/xsl"?>
+<jcsc>
+  <package>fca.gui.util.constant</package>
+  <class>LMOptions</class>
+  <methods>0</methods>
+  <author><![CDATA[]]></author>
+  <count>0</count>
+  <ncss>40</ncss>
+  <lines>143</lines>
+  <unittestclasses>0</unittestclasses>
+  <unittests>0</unittests>
+</jcsc>

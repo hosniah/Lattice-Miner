@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet href="xsl/rule.xsl" type="text/xsl"?>
+<jcsc>
+  <category>Field</category>
+  <rule>FieldBlockPlaceRule</rule>
+  <violations>
+    <violation>
+      <rule>
+        <name>FieldBlockPlaceRule</name>
+        <severity>3</severity>
+        <category>Field</category>
+      </rule>
+      <classname>LMColors</classname>
+      <package>fca.gui.util.constant</package>
+      <line>-1</line>
+      <column>-1</column>
+      <message><![CDATA[fields in class 'LMColors' must not be declared before and after the method definitions, you have to place them before the method definitions]]></message>
+      <source>H:\eclipse\workspace\LatticeMiner\src\fca\gui\util\constant\LMColors.java</source>
+    </violation>
+  </violations>
+</jcsc>

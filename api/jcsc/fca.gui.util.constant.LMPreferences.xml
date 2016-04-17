@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet href="xsl/class.xsl" type="text/xsl"?>
+<jcsc>
+  <package>fca.gui.util.constant</package>
+  <class>LMPreferences</class>
+  <methods>3</methods>
+  <author><![CDATA[]]></author>
+  <count>0</count>
+  <ncss>31</ncss>
+  <lines>96</lines>
+  <unittestclasses>0</unittestclasses>
+  <unittests>0</unittests>
+  <metric>
+    <method>>
+      <name>LMPreferences.getPreferences()</name>
+      <line>71</line>
+      <column>56</column>
+      <ncss>2</ncss>
+      <ccn>1</ccn>
+    </method>
+  </metric>
+  <metric>
+    <method>>
+      <name>LMPreferences.getLastDirectory()</name>
+      <line>80</line>
+      <column>53</column>
+      <ncss>6</ncss>
+      <ccn>3</ccn>
+    </method>
+  </metric>
+  <metric>
+    <method>>
+      <name>LMPreferences.setLastDirectory()</name>
+      <line>92</line>
+      <column>67</column>
+      <ncss>2</ncss>
+      <ccn>1</ccn>
+    </method>
+  </metric>
+</jcsc>

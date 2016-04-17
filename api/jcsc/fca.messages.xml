@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet href="xsl/package.xsl" type="text/xsl"?>
+<jcsc>
+  <classlist>
+    <package>fca.messages</package>
+    <classes>
+      <class>fca.messages.CoreMessages</class>
+      <class>fca.messages.ExceptionMessages</class>
+      <class>fca.messages.GUIMessages</class>
+      <class>fca.messages.IOMessages</class>
+      <class>fca.messages.MainMessages</class>
+    </classes>
+  </classlist>
+</jcsc>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet href="xsl/overview.xsl" type="text/xsl"?>
+<jcsc>
+  <overview>
+    <packagename>fca.gui.rule</packagename>
+    <packagecount>0</packagecount>
+    <name>fca.gui.rule</name>
+    <classcount>3</classcount>
+    <methodscount>31</methodscount>
+    <violationscount>8</violationscount>
+    <linecount>666</linecount>
+    <ncsscount>390</ncsscount>
+    <functionpointscount>7.3584905660377355</functionpointscount>
+    <unittestclasscount>0</unittestclasscount>
+    <unittestscount>0</unittestscount>
+    <severitylevel>4</severitylevel>
+    <worstclasses>
+      <worst>
+        <class>fca.gui.rule.RuleTable</class>
+        <count>3</count>
+        <author><![CDATA[]]></author>
+      </worst>
+      <worst>
+        <class>fca.gui.rule.RuleTableModel</class>
+        <count>3</count>
+        <author><![CDATA[]]></author>
+      </worst>
+      <worst>
+        <class>fca.gui.rule.RuleViewer</class>
+        <count>2</count>
+        <author><![CDATA[]]></author>
+      </worst>
+    </worstclasses>
+  </overview>
+</jcsc>

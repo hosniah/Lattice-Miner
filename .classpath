@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="dev/javancss29.50/lib/ccl.jar"/>
+	<classpathentry kind="lib" path="dev/javancss29.50/lib/jhbasic.jar"/>
+	<classpathentry kind="lib" path="dev/javancss29.50/lib/javancss.jar"/>
+	<classpathentry kind="lib" path="dev/jcsc0.98.1/lib/gnu-regexp.jar"/>
+	<classpathentry kind="lib" path="dev/jcsc0.98.1/lib/JCSC.jar"/>
+	<classpathentry kind="lib" path="dev/jcsc0.98.1/lib/xercesImpl.jar"/>
+	<classpathentry kind="lib" path="dev/jcsc0.98.1/lib/xml-apis.jar"/>
+	<classpathentry kind="lib" path="dev/pmd4.0/lib/asm-3.0.jar"/>
+	<classpathentry kind="lib" path="dev/pmd4.0/lib/jaxen-1.1.jar"/>
+	<classpathentry kind="lib" path="dev/pmd4.0/lib/pmd-4.0.jar"/>
+	<classpathentry kind="lib" path="dev/jdepend-2.9/lib/jdepend-2.9.jar"/>
+	<classpathentry kind="lib" path="lib/jdom.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

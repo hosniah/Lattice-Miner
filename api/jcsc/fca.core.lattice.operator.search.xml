@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet href="xsl/package.xsl" type="text/xsl"?>
+<jcsc>
+  <classlist>
+    <package>fca.core.lattice.operator.search</package>
+    <classes>
+      <class>fca.core.lattice.operator.search.ApproximationSimple</class>
+      <class>fca.core.lattice.operator.search.SearchApproximateExtentNested</class>
+      <class>fca.core.lattice.operator.search.SearchApproximateExtentSimple</class>
+      <class>fca.core.lattice.operator.search.SearchApproximateIntentNested</class>
+      <class>fca.core.lattice.operator.search.SearchApproximateIntentSimple</class>
+    </classes>
+  </classlist>
+</jcsc>

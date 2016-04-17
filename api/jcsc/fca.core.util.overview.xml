@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet href="xsl/overview.xsl" type="text/xsl"?>
+<jcsc>
+  <overview>
+    <packagename>fca.core.util</packagename>
+    <packagecount>0</packagecount>
+    <name>fca.core.util</name>
+    <classcount>4</classcount>
+    <methodscount>26</methodscount>
+    <violationscount>6</violationscount>
+    <linecount>548</linecount>
+    <ncsscount>294</ncsscount>
+    <functionpointscount>5.547169811320755</functionpointscount>
+    <unittestclasscount>0</unittestclasscount>
+    <unittestscount>0</unittestscount>
+    <severitylevel>4</severitylevel>
+    <worstclasses>
+      <worst>
+        <class>fca.core.util.LogicalFormula</class>
+        <count>5</count>
+        <author><![CDATA[]]></author>
+      </worst>
+      <worst>
+        <class>fca.core.util.BasicSet</class>
+        <count>1</count>
+        <author><![CDATA[]]></author>
+      </worst>
+      <worst>
+        <class>fca.core.util.Couple</class>
+        <count>0</count>
+        <author><![CDATA[]]></author>
+      </worst>
+      <worst>
+        <class>fca.core.util.Triple</class>
+        <count>0</count>
+        <author><![CDATA[]]></author>
+      </worst>
+    </worstclasses>
+  </overview>
+</jcsc>

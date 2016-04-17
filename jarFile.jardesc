@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="WINDOWS-1252"?>
+<jardesc>
+<jar path="C:/Documents and Settings/lariminvite/Bureau/LatticeMiner1.2.jar"/>
+<options buildIfNeeded="true" compress="true" descriptionLocation="/LatticeMiner/jarFile.jardesc" exportErrors="true" exportWarnings="true" includeDirectoryEntries="true" overwrite="false" saveDescription="true" storeRefactorings="false" useSourceFolders="false"/>
+<storedRefactorings deprecationInfo="true" structuralOnly="false"/>
+<selectedProjects/>
+<manifest generateManifest="false" mainClassHandleIdentifier="=LatticeMiner/src&lt;fca{LatticeMiner.java[LatticeMiner" manifestLocation="/LatticeMiner/jarManifest.MF" manifestVersion="1.0" reuseManifest="true" saveManifest="true" usesManifest="true">
+<sealing sealJar="false">
+<packagesToSeal/>
+<packagesToUnSeal/>
+</sealing>
+</manifest>
+<selectedElements exportClassFiles="true" exportJavaFiles="false" exportOutputFolder="false">
+<file path="/LatticeMiner/.project"/>
+<file path="/LatticeMiner/src/lib/CVS/Entries"/>
+<file path="/LatticeMiner/src/lib/CVS/Root"/>
+<file path="/LatticeMiner/.umlproject"/>
+<file path="/LatticeMiner/.euml2"/>
+<file path="/LatticeMiner/.classpath"/>
+<file path="/LatticeMiner/src/lib/CVS/Repository"/>
+<javaElement handleIdentifier="=LatticeMiner/src"/>
+<folder path="/LatticeMiner/lib"/>
+</selectedElements>
+</jardesc>

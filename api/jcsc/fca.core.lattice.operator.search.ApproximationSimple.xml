@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet href="xsl/class.xsl" type="text/xsl"?>
+<jcsc>
+  <package>fca.core.lattice.operator.search</package>
+  <class>ApproximationSimple</class>
+  <methods>4</methods>
+  <author><![CDATA[]]></author>
+  <count>1</count>
+  <ncss>53</ncss>
+  <lines>113</lines>
+  <unittestclasses>0</unittestclasses>
+  <unittests>0</unittests>
+  <violation>
+    <rule>
+      <name>MaxNumberOfNCSSPerMethod</name>
+      <severity>4</severity>
+      <category>Metrics</category>
+    </rule>
+    <classname>ApproximationSimple</classname>
+    <package>fca.core.lattice.operator.search</package>
+    <line>72</line>
+    <column>49</column>
+    <message><![CDATA[method declaration 'approximationL2etUIRec' has too many NCSS (29) - 25 are allowed]]></message>
+    <source>H:\eclipse\workspace\LatticeMiner\src\fca\core\lattice\operator\search\ApproximationSimple.java</source>
+  </violation>
+  <metric>
+    <method>>
+      <name>ApproximationSimple.constructor()</name>
+      <line>25</line>
+      <column>16</column>
+      <ncss>2</ncss>
+      <ccn>1</ccn>
+    </method>
+  </metric>
+  <metric>
+    <method>>
+      <name>ApproximationSimple.perform()</name>
+      <line>34</line>
+      <column>92</column>
+      <ncss>4</ncss>
+      <ccn>1</ccn>
+    </method>
+  </metric>
+  <metric>
+    <method>>
+      <name>ApproximationSimple.approximationL1Rec()</name>
+      <line>49</line>
+      <column>78</column>
+      <ncss>9</ncss>
+      <ccn>3</ccn>
+    </method>
+  </metric>
+  <metric>
+    <method>>
+      <name>ApproximationSimple.approximationL2etUIRec()</name>
+      <line>72</line>
+      <column>49</column>
+      <ncss>29</ncss>
+      <ccn>8</ccn>
+    </method>
+  </metric>
+</jcsc>

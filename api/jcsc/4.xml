@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet href="xsl/severity.xsl" type="text/xsl"?>
+<jcsc>
+  <rulelist>
+    <severity>4</severity>
+    <rules>
+      <rule>
+        <name>MaxNumberOfCCNPerConstructor</name>
+        <severity>4</severity>
+        <category>Metrics</category>
+      </rule>
+      <rule>
+        <name>MaxNumberOfCCNPerMethod</name>
+        <severity>4</severity>
+        <category>Metrics</category>
+      </rule>
+      <rule>
+        <name>MaxNumberOfNCSSPerConstructor</name>
+        <severity>4</severity>
+        <category>Metrics</category>
+      </rule>
+      <rule>
+        <name>MaxNumberOfNCSSPerMethod</name>
+        <severity>4</severity>
+        <category>Metrics</category>
+      </rule>
+    </rules>
+  </rulelist>
+</jcsc>

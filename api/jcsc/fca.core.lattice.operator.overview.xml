@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet href="xsl/overview.xsl" type="text/xsl"?>
+<jcsc>
+  <overview>
+    <packagename>fca.core.lattice.operator</packagename>
+    <packagecount>0</packagecount>
+    <name>fca.core.lattice.operator</name>
+    <classcount>1</classcount>
+    <methodscount>4</methodscount>
+    <violationscount>0</violationscount>
+    <linecount>71</linecount>
+    <ncsscount>17</ncsscount>
+    <functionpointscount>0.32075471698113206</functionpointscount>
+    <unittestclasscount>0</unittestclasscount>
+    <unittestscount>0</unittestscount>
+    <severitylevel>0</severitylevel>
+    <worstclasses>
+      <worst>
+        <class>fca.core.lattice.operator.Operator</class>
+        <count>0</count>
+        <author><![CDATA[]]></author>
+      </worst>
+    </worstclasses>
+  </overview>
+</jcsc>

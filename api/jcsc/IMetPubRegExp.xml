@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet href="xsl/rule.xsl" type="text/xsl"?>
+<jcsc>
+  <category>Method</category>
+  <rule>IMetPubRegExp</rule>
+  <violations>
+    <violation>
+      <rule>
+        <name>IMetPubRegExp</name>
+        <severity>3</severity>
+        <category>Method</category>
+      </rule>
+      <classname>OracleConnection</classname>
+      <package>fca.io.db.reader</package>
+      <line>25</line>
+      <column>52</column>
+      <message><![CDATA[method declaration 'ExecuteQuery' must match the following regexp '[a-z][\w\d]*']]></message>
+      <source>H:\eclipse\workspace\LatticeMiner\src\fca\io\db\reader\OracleConnection.java</source>
+    </violation>
+  </violations>
+</jcsc>

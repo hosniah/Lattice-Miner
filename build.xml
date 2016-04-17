@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<project name="LatticeMiner1.3" basedir="." default="all">
+
+	<description>Génération de l'application Lattice Miner</description>
+
+	<!-- On inclu les propriétés -->
+	<property file="build.properties" />
+
+	<!-- Initialisation du script Ant -->
+	<target name="init" description="Initialisation">
+		<tstamp />
+		<buildnumber file="numerobuild.txt" />
+		<echo message="Generation numero : ${build.number} du ${TODAY}" />
+	</target>
+
+	<!-- Compilation du projet -->
+	<target name="compil" depends="compil-init" description="Compilation">
+		<javac srcdir="${src.dir}" destdir="${bin.dir}">
+			<classpath>
+				<pathelement path="${java.class.path}" />
+			</classpath>
+		</javac>
+	</target>
+
+	<!-- Initialisation de la compilation du projet -->
+	<target name="compil-init">
+		<mkdir dir="${bin.dir}" />
+	</target>
+
+	<!-- Suppression du dossier de compilation du projet -->
+	<target name="compil-clean">
+		<delete dir="${bin.dir}" />
+	</target>
+
+	<!-- Target qui crée le JAR -->
+	<target name="jar" depends="init, jar-init, compil">
+		<copy todir="${jar.dir}">
+			<fileset dir="${lib.dir}">
+				<include name="${jdom-library.name}.jar" />
+			</fileset>
+		</copy>
+		<jar jarfile="${jar.dir}/${ant.project.name}-${build.number}.jar" compress="true" basedir="${bin.dir}" excludes="**/model.auml, **/Thumbs.db">
+			<manifest>
+				<!-- Classe principale du JAR-->
+				<attribute name="Main-Class" value="${main-class}" />
+				<attribute name="Class-Path" value="${jdom-library.name}.jar" />
+			</manifest>
+		</jar>
+		<jar jarfile="${jar.dir}/${ant.project.name}-latest.jar" compress="true" basedir="${bin.dir}" excludes="**/model.auml, **/Thumbs.db">
+			<manifest>
+				<!-- Classe principale du JAR-->
+				<attribute name="Main-Class" value="${main-class}" />
+				<attribute name="Class-Path" value="${jdom-library.name}.jar" />
+			</manifest>
+		</jar>
+		
+	</target>
+
+	<!-- Initialisation de la generation du JAR -->
+	<target name="jar-init">
+		<mkdir dir="${jar.dir}" />
+	</target>
+
+	<!-- Suppression du dossier de JAR -->
+	<target name="jar-clean">
+		<delete dir="${jar.dir}" />
+	</target>
+
+	<!-- Exécution du JAR -->
+	<target name="run">
+		<java jar="${dist.dir}/${ant.project.name}.jar" fork="true" />
+	</target>
+
+	<!-- Rajout d'une tâche Javancss -->
+	<taskdef name="javancss" classname="javancss.JavancssAntTask" classpath="${javancss.classpath}" />
+
+	<!-- Generation de statistiques metriques Javancss -->
+	<target name="javancss" depends="javancss-init" description="Generates Javancss Code Metrics Reports.">
+		<javancss srcdir="${src.dir}" abortOnFail="false" includes="fca/**/*.java" generateReport="true" outputfile="${javancss.dir}/javancss_metrics.xml" format="xml" />
+		<xslt basedir="${javancss.dir}" destdir="${javancss.dir}" includes="javancss_metrics.xml" style="${javancss.home}/xslt/javancss2html.xsl" />
+	</target>
+
+	<!-- Initialisation de javancss -->
+	<target name="javancss-init">
+		<mkdir dir="${javancss.dir}" />
+	</target>
+
+	<!-- Suppression du dossier de javancss -->
+	<target name="javancss-clean">
+		<delete dir="${javancss.dir}" />
+	</target>
+
+	<!-- Generation de statistiques metriques JDepend -->
+	<target name="jdepend" depends="compil, jdepend-init" description="Generates JDepend Code Metrics Reports.">
+		<jdepend format="xml" outputfile="${jdepend.dir}/jdepend-report.xml">
+			<classespath>
+				<pathelement location="${bin.dir}" />
+			</classespath>
+		</jdepend>
+		<xslt basedir="${jdepend.dir}" destdir="${jdepend.dir}" includes="jdepend-report.xml" style="${ant.home}/etc/jdepend.xsl" />
+	</target>
+
+	<!-- Initialisation de JDepend -->
+	<target name="jdepend-init">
+		<mkdir dir="${jdepend.dir}" />
+	</target>
+
+	<!-- Suppression du dossier de JDepend -->
+	<target name="jdepend-clean">
+		<delete dir="${jdepend.dir}" />
+	</target>
+
+	<!-- Rajout d'une tâche JCSC -->
+	<taskdef name="jcsc" classname="rj.tools.jcsc.ant.JCSCTask" classpath="${jcsc.classpath}" />
+
+	<!-- Generation de statistiques metriques JCSC rules="${jcsc.home}/rules/larim.jcsc.xml">-->
+	<target name="jcsc" depends="jcsc-init" description="JCSC">
+		<jcsc destdir="${jcsc.dir}" jcschome="${jcsc.home}" copyassociatedfiles="true" rules="${dev.dir}/larim.xml">
+			<fileset dir="${src.dir}" includes="fca/**/*.java" />
+		</jcsc>
+	</target>
+
+	<!-- Initialisation de JCSC -->
+	<target name="jcsc-init">
+		<mkdir dir="${jcsc.dir}" />
+	</target>
+
+	<!-- Suppression du dossier de JCSC -->
+	<target name="jcsc-clean">
+		<delete dir="${jcsc.dir}" />
+	</target>
+
+	<!-- Rajout d'une tâche PMD -->
+	<taskdef name="pmd" classname="net.sourceforge.pmd.ant.PMDTask" classpath="${pmd.classpath}" />
+
+	<!-- Generation de statistiques metriques PMD -->
+	<target name="pmd" depends="pmd-init" description="PMD">
+		<pmd shortFilenames="true">
+			<ruleset>rulesets/favorites.xml</ruleset>
+			<ruleset>basic</ruleset>
+			<formatter type="xml" toFile="${pmd.dir}/pmd_report.xml" linkPrefix="http://pmd.sourceforge.net/xref/" />
+			<fileset dir="${src.dir}">
+				<include name="fca/**/*.java" />
+			</fileset>
+		</pmd>
+		<xslt in="${pmd.dir}/pmd_report.xml" style="${pmd.home}/etc/xslt/wz-pmd-report.xslt" out="${pmd.dir}/pmd_report.html" />
+	</target>
+
+	<!-- Initialisation de PMD -->
+	<target name="pmd-init">
+		<mkdir dir="${pmd.dir}" />
+	</target>
+
+	<!-- Suppression du dossier de PMD -->
+	<target name="pmd-clean">
+		<delete dir="${pmd.dir}" />
+	</target>
+
+	<!-- Generation complete depends="init, compil, doc, jar, javancss, jdepend, jcsc"-->
+	<target name="all" depends="init, compil, doc, jar, javancss, jcsc" description="Generation complete">
+		<echo message="Generation complete." />
+	</target>
+
+	<!-- Generation des statistiques depends="javancss-clean, jdepend-clean, jcsc-clean, pmd-clean, javancss, jdepend, jcsc, pmd"
+	-->
+	<target name="partial-statsOnly" depends="javancss-clean, jdepend-clean, jcsc-clean, pmd-clean, javancss, pmd" description="Generation partielle : Statistiques metriques uniquement">
+		<echo message="Generation partielle : Statistiques metriques uniquement" />
+	</target>
+
+	<!-- Generation partielle : JAR uniquement -->
+	<target name="partial-jarOnly" depends="init, jar" description="Generation partielle : Fichier JAR uniquement">
+		<echo message="Generation partielle : Fichier JAR uniquement." />
+	</target>
+
+	<!-- Supprime tous les produits construits -->
+	<target name="clean" depends="compil-clean, jar-clean, javancss-clean, jdepend-clean, doc-clean, jcsc-clean" description="Supprime tous les produits construits">
+		<delete dir="${api.dir}" />
+	</target>
+
+	<!-- Initialisation de la generation de la documentation -->
+	<target name="doc-init">
+		<mkdir dir="${doc.dir}" />
+	</target>
+
+	<!-- Suppression du dossier de documentation -->
+	<target name="doc-clean">
+		<delete dir="${doc.dir}" />
+	</target>
+
+	<!-- Generation de la documentation -->
+	<target name="doc" depends="doc-clean, doc-init, compil" description="Generation de la documentation">
+		<javadoc destdir="${doc.dir}" author="true" version="true" 
+			use="true" package="true" windowtitle="${ant.project.name}" 
+			packagenames="fca.*" source="5"
+			classpath="${jdom.classpath}">
+			<fileset dir="${src.dir}" defaultexcludes="yes">
+				<include name="fca/**/*.java" />
+			</fileset>
+			<doctitle>
+				<![CDATA[<h1>${ant.project.name}</h1>]]></doctitle>
+			<bottom>
+			<![CDATA[<i>${larim.copyright}</i>]]>
+			</bottom>
+		</javadoc>
+	</target>
+	
+	
+</project>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet href="xsl/class.xsl" type="text/xsl"?>
+<jcsc>
+  <package>fca.core.lattice.operator.projection</package>
+  <class>ImprovedAttributeProjection</class>
+  <methods>3</methods>
+  <author><![CDATA[]]></author>
+  <count>0</count>
+  <ncss>36</ncss>
+  <lines>75</lines>
+  <unittestclasses>0</unittestclasses>
+  <unittests>0</unittests>
+  <metric>
+    <method>>
+      <name>ImprovedAttributeProjection.constructor()</name>
+      <line>20</line>
+      <column>16</column>
+      <ncss>2</ncss>
+      <ccn>1</ccn>
+    </method>
+  </metric>
+  <metric>
+    <method>>
+      <name>ImprovedAttributeProjection.perform()</name>
+      <line>29</line>
+      <column>53</column>
+      <ncss>6</ncss>
+      <ccn>2</ccn>
+    </method>
+  </metric>
+  <metric>
+    <method>>
+      <name>ImprovedAttributeProjection.performRec()</name>
+      <line>41</line>
+      <column>80</column>
+      <ncss>22</ncss>
+      <ccn>7</ccn>
+    </method>
+  </metric>
+</jcsc>

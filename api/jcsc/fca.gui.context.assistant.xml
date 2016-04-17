@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet href="xsl/package.xsl" type="text/xsl"?>
+<jcsc>
+  <classlist>
+    <package>fca.gui.context.assistant</package>
+    <classes>
+      <class>fca.gui.context.assistant.LevelAdditionAssistant</class>
+      <class>fca.gui.context.assistant.NestedContextCreationAssistant</class>
+      <class>fca.gui.context.assistant.ValuedContextConversionAssistant</class>
+    </classes>
+  </classlist>
+</jcsc>

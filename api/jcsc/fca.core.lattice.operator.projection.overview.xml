@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet href="xsl/overview.xsl" type="text/xsl"?>
+<jcsc>
+  <overview>
+    <packagename>fca.core.lattice.operator.projection</packagename>
+    <packagecount>0</packagecount>
+    <name>fca.core.lattice.operator.projection</name>
+    <classcount>6</classcount>
+    <methodscount>28</methodscount>
+    <violationscount>4</violationscount>
+    <linecount>668</linecount>
+    <ncsscount>330</ncsscount>
+    <functionpointscount>6.226415094339623</functionpointscount>
+    <unittestclasscount>0</unittestclasscount>
+    <unittestscount>0</unittestscount>
+    <severitylevel>4</severitylevel>
+    <worstclasses>
+      <worst>
+        <class>fca.core.lattice.operator.projection.BasicAttributeProjection</class>
+        <count>2</count>
+        <author><![CDATA[]]></author>
+      </worst>
+      <worst>
+        <class>fca.core.lattice.operator.projection.BasicObjectProjection</class>
+        <count>2</count>
+        <author><![CDATA[]]></author>
+      </worst>
+      <worst>
+        <class>fca.core.lattice.operator.projection.BasicProjection</class>
+        <count>0</count>
+        <author><![CDATA[]]></author>
+      </worst>
+      <worst>
+        <class>fca.core.lattice.operator.projection.ImprovedAttributeProjection</class>
+        <count>0</count>
+        <author><![CDATA[]]></author>
+      </worst>
+      <worst>
+        <class>fca.core.lattice.operator.projection.ImprovedObjectProjection</class>
+        <count>0</count>
+        <author><![CDATA[]]></author>
+      </worst>
+      <worst>
+        <class>fca.core.lattice.operator.projection.ImprovedProjection</class>
+        <count>0</count>
+        <author><![CDATA[]]></author>
+      </worst>
+    </worstclasses>
+  </overview>
+</jcsc>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet href="xsl/class.xsl" type="text/xsl"?>
+<jcsc>
+  <package>fca.gui.context.panel</package>
+  <class>MergeAttributesPanel</class>
+  <methods>3</methods>
+  <author><![CDATA[]]></author>
+  <count>2</count>
+  <ncss>137</ncss>
+  <lines>216</lines>
+  <unittestclasses>0</unittestclasses>
+  <unittests>0</unittests>
+  <violation>
+    <rule>
+      <name>FCFPriRegExp</name>
+      <severity>3</severity>
+      <category>Field</category>
+    </rule>
+    <classname>MergeAttributesPanel</classname>
+    <package>fca.gui.context.panel</package>
+    <line>44</line>
+    <column>55</column>
+    <message><![CDATA[field declaration 'serialVersionUID' must match the following regexp '[A-Z][A-Z0-9_]*]]></message>
+    <source>H:\eclipse\workspace\LatticeMiner\src\fca\gui\context\panel\MergeAttributesPanel.java</source>
+  </violation>
+  <violation>
+    <rule>
+      <name>MaxNumberOfNCSSPerConstructor</name>
+      <severity>4</severity>
+      <category>Metrics</category>
+    </rule>
+    <classname>MergeAttributesPanel</classname>
+    <package>fca.gui.context.panel</package>
+    <line>71</line>
+    <column>16</column>
+    <message><![CDATA[constructor has too many NCSS (73) - 25 are allowed]]></message>
+    <source>H:\eclipse\workspace\LatticeMiner\src\fca\gui\context\panel\MergeAttributesPanel.java</source>
+  </violation>
+  <metric>
+    <method>>
+      <name>MergeAttributesPanel.constructor()</name>
+      <line>71</line>
+      <column>16</column>
+      <ncss>73</ncss>
+      <ccn>3</ccn>
+    </method>
+  </metric>
+  <metric>
+    <method>>
+      <name>MergeAttributesPanel.open()</name>
+      <line>175</line>
+      <column>26</column>
+      <ncss>2</ncss>
+      <ccn>1</ccn>
+    </method>
+  </metric>
+  <metric>
+    <method>>
+      <name>MergeAttributesPanel.actionPerformed()</name>
+      <line>184</line>
+      <column>50</column>
+      <ncss>21</ncss>
+      <ccn>6</ccn>
+    </method>
+  </metric>
+</jcsc>

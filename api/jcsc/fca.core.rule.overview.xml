@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet href="xsl/overview.xsl" type="text/xsl"?>
+<jcsc>
+  <overview>
+    <packagename>fca.core.rule</packagename>
+    <packagecount>0</packagecount>
+    <name>fca.core.rule</name>
+    <classcount>4</classcount>
+    <methodscount>30</methodscount>
+    <violationscount>0</violationscount>
+    <linecount>482</linecount>
+    <ncsscount>168</ncsscount>
+    <functionpointscount>3.169811320754717</functionpointscount>
+    <unittestclasscount>0</unittestclasscount>
+    <unittestscount>0</unittestscount>
+    <severitylevel>0</severitylevel>
+    <worstclasses>
+      <worst>
+        <class>fca.core.rule.GenericBasisAlgorithm</class>
+        <count>0</count>
+        <author><![CDATA[]]></author>
+      </worst>
+      <worst>
+        <class>fca.core.rule.InformativeBasisAlgorithm</class>
+        <count>0</count>
+        <author><![CDATA[]]></author>
+      </worst>
+      <worst>
+        <class>fca.core.rule.Rule</class>
+        <count>0</count>
+        <author><![CDATA[]]></author>
+      </worst>
+      <worst>
+        <class>fca.core.rule.RuleAlgorithm</class>
+        <count>0</count>
+        <author><![CDATA[]]></author>
+      </worst>
+    </worstclasses>
+  </overview>
+</jcsc>

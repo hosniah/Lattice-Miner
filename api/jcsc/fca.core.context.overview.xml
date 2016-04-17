@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet href="xsl/overview.xsl" type="text/xsl"?>
+<jcsc>
+  <overview>
+    <packagename>fca.core.context</packagename>
+    <packagecount>0</packagecount>
+    <name>fca.core.context</name>
+    <classcount>1</classcount>
+    <methodscount>37</methodscount>
+    <violationscount>2</violationscount>
+    <linecount>647</linecount>
+    <ncsscount>248</ncsscount>
+    <functionpointscount>4.679245283018868</functionpointscount>
+    <unittestclasscount>0</unittestclasscount>
+    <unittestscount>0</unittestscount>
+    <severitylevel>4</severitylevel>
+    <worstclasses>
+      <worst>
+        <class>fca.core.context.Context</class>
+        <count>2</count>
+        <author><![CDATA[]]></author>
+      </worst>
+    </worstclasses>
+  </overview>
+</jcsc>
